@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
+import com.kivaatello.fragments2.adapters.ViewPagerAdapter
 import com.kivaatello.fragments2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.kivaatello.fragments2
+package com.kivaatello.fragments2.adapters
 
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment

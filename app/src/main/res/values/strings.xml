@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Fragments2</string>
+
+    <string-array name="razas">
+        <item>Affenpinscher</item>
+        <item>Akita</item>
+        <item>African</item>
+        <item>Beagle</item>
+        <item>Boxer</item>
+        <item>Eskimo</item>
+        <item>Havanese</item>
+        <item>English</item>
+        <item>Hound</item>
+        <item>Redbone</item>
+        <item>Golden Retriever</item>
+        <item>Labrador</item>
+        <item>Saluki</item>
+        <item>Samoyed</item>
+    </string-array>
 </resources>

@@ -9,6 +9,9 @@ import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import com.kivaatello.fragments2.adapters.ViewPagerAdapter
 import com.kivaatello.fragments2.databinding.ActivityMainBinding
+import com.kivaatello.fragments2.fragments.DogFragment
+import com.kivaatello.fragments2.fragments.PersonasFragment
+import com.kivaatello.fragments2.fragments.ProfesionesFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,7 +29,8 @@ class MainActivity : AppCompatActivity() {
 
         val fragments: ArrayList<Fragment> = arrayListOf(
             DogFragment(),
-            ProfesionesFragment()
+            ProfesionesFragment(),
+            PersonasFragment()
         )
 
         viewPager.adapter = ViewPagerAdapter(fragments, this)
@@ -36,6 +40,7 @@ class MainActivity : AppCompatActivity() {
             tab.text = when(position){
                 0 -> {"Dogs"}
                 1 -> {"Professions"}
+                2 -> {"Personas"}
                 else -> {throw Resources.NotFoundException("Position not found")}
             }
         }.attach()

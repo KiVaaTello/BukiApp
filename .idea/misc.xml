@@ -3,6 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kvtel/AndroidStudioProjects/BukiApp/app/src/main/res/layout/fragment_personas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kvtel/AndroidStudioProjects/BukiApp/app/src/main/res/layout/fragment_profesiones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kvtel/AndroidStudioProjects/BukiApp/app/src/main/res/layout/item_dog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kvtel/AndroidStudioProjects/BukiApp/app/src/main/res/layout/item_personas.xml" value="0.18" />
+        <entry key="..\:/Users/kvtel/AndroidStudioProjects/BukiApp/app/src/main/res/layout/item_profesiones.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/kvtel/AndroidStudioProjects/BukiApp/app/src/main/res/layout/like_dislike_notification.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/kvtel/AndroidStudioProjects/Fragments2/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/kvtel/AndroidStudioProjects/Fragments2/app/src/main/res/layout/activity_ver_foto.xml" value="0.17916666666666667" />
         <entry key="..\:/Users/kvtel/AndroidStudioProjects/Fragments2/app/src/main/res/layout/dialog.xml" value="0.17916666666666667" />

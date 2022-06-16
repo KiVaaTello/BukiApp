@@ -1,4 +1,4 @@
-package com.kivaatello.fragments2
+package com.kivaatello.fragments2.fragments
 
 import android.content.Context
 import android.os.Bundle
@@ -10,6 +10,10 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.kivaatello.fragments2.APIServiceDogs
+import com.kivaatello.fragments2.DogsResponse
+import com.kivaatello.fragments2.R
+import com.kivaatello.fragments2.ThreadUtil
 import com.kivaatello.fragments2.adapters.DogAdapter
 import com.kivaatello.fragments2.databinding.FragmentDogsBinding
 import kotlinx.coroutines.CoroutineScope
@@ -19,7 +23,6 @@ import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import kotlin.Exception
-import kotlin.collections.ArrayList
 
 class DogFragment : Fragment(R.layout.fragment_dogs) {
     private lateinit var binding: FragmentDogsBinding

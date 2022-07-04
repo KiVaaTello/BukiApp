@@ -9,7 +9,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.kivaatello.fragments2.*
 import com.kivaatello.fragments2.adapters.PersonasAdapter
-import com.kivaatello.fragments2.adapters.ProfesionesAdapter
+import com.kivaatello.fragments2.apiServices.APIServicePersonas
 import com.kivaatello.fragments2.databinding.FragmentPersonasBinding
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

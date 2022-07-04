@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        viewPager = binding.viewPager
+        viewPager = binding.viewPager2
         tabLayout = binding.tabLayout
 
         val fragments: ArrayList<Fragment> = arrayListOf(

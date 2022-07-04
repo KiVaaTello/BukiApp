@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kivaatello.fragments2.APIServiceProfesiones
+import com.kivaatello.fragments2.apiServices.APIServiceProfesiones
 import com.kivaatello.fragments2.ModeloProfesiones
 import com.kivaatello.fragments2.R
 import com.kivaatello.fragments2.ThreadUtil

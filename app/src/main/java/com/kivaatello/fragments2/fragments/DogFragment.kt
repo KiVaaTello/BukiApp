@@ -10,7 +10,7 @@ import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.kivaatello.fragments2.APIServiceDogs
+import com.kivaatello.fragments2.apiServices.APIServiceDogs
 import com.kivaatello.fragments2.DogsResponse
 import com.kivaatello.fragments2.R
 import com.kivaatello.fragments2.ThreadUtil

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15153830204",
+    "project_id": "fragments2-40265",
+    "storage_bucket": "fragments2-40265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15153830204:android:3212190b49e2678e1b2639",
+        "android_client_info": {
+          "package_name": "com.kivaatello.fragments2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15153830204-rjbspspbqrbeeffsj4q4j6fe2emiegch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUgn7QgxCpzzKctP65LlwEYc89Y4yN8g0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15153830204-rjbspspbqrbeeffsj4q4j6fe2emiegch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

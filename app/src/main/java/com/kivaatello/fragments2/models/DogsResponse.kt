@@ -1,8 +1,8 @@
-package com.kivaatello.fragments2
+package com.kivaatello.fragments2.models
 
 import com.google.gson.annotations.SerializedName
 
-class DogsResponse (
+data class DogsResponse (
     @SerializedName("status") var status:String,
     @SerializedName("message") var images:List<String>
     )

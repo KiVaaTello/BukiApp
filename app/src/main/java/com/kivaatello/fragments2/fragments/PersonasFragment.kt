@@ -11,6 +11,7 @@ import com.kivaatello.fragments2.*
 import com.kivaatello.fragments2.adapters.PersonasAdapter
 import com.kivaatello.fragments2.apiServices.APIServicePersonas
 import com.kivaatello.fragments2.databinding.FragmentPersonasBinding
+import com.kivaatello.fragments2.models.ModeloPersonas
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

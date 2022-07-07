@@ -1,15 +1,11 @@
-package com.kivaatello.fragments2
+package com.kivaatello.fragments2.viewholders
 
-import android.app.Dialog
 import android.content.Context
 import android.content.Intent
-import android.graphics.Color
-import android.graphics.drawable.ColorDrawable
 import android.view.View
-import android.view.Window
-import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
+import com.kivaatello.fragments2.VerFoto
 import com.kivaatello.fragments2.databinding.ItemDogBinding
 import com.squareup.picasso.Picasso
 

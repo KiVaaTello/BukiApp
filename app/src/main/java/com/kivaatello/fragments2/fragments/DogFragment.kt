@@ -11,7 +11,7 @@ import android.widget.Spinner
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.kivaatello.fragments2.apiServices.APIServiceDogs
-import com.kivaatello.fragments2.DogsResponse
+import com.kivaatello.fragments2.models.DogsResponse
 import com.kivaatello.fragments2.R
 import com.kivaatello.fragments2.ThreadUtil
 import com.kivaatello.fragments2.adapters.DogAdapter
@@ -41,8 +41,7 @@ class DogFragment : Fragment(R.layout.fragment_dogs) {
         binding = FragmentDogsBinding.inflate(inflater, container, false)
         spinner = binding.spinnerRazas
         razas = resources.getStringArray(R.array.razas)
-        razasAdapter =
-            ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, razas)
+        razasAdapter = ArrayAdapter(requireContext(), android.R.layout.simple_spinner_dropdown_item, razas)
         binding.spinnerRazas.adapter = razasAdapter
 
 

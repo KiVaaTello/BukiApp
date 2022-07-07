@@ -1,4 +1,4 @@
-package com.kivaatello.fragments2
+package com.kivaatello.fragments2.models
 
 import com.google.gson.annotations.SerializedName
 

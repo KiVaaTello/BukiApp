@@ -1,7 +1,8 @@
-package com.kivaatello.fragments2
+package com.kivaatello.fragments2.viewholders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
+import com.kivaatello.fragments2.models.ModeloProfesiones
 import com.kivaatello.fragments2.databinding.ItemProfesionesBinding
 
 class ProfesionesViewHolder(view: View): RecyclerView.ViewHolder(view) {

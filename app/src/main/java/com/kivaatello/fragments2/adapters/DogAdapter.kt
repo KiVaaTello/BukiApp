@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kivaatello.fragments2.DogViewHolder
+import com.kivaatello.fragments2.viewholders.DogViewHolder
 import com.kivaatello.fragments2.R
 
 class DogAdapter(private val images:List<String>, private val contexto: Context): RecyclerView.Adapter<DogViewHolder>() {

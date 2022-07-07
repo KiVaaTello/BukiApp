@@ -4,8 +4,8 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.kivaatello.fragments2.ModeloPersonas
-import com.kivaatello.fragments2.PersonasViewHolder
+import com.kivaatello.fragments2.models.ModeloPersonas
+import com.kivaatello.fragments2.viewholders.PersonasViewHolder
 import com.kivaatello.fragments2.R
 
 class PersonasAdapter(private val personas: ArrayList<ModeloPersonas>, private val contexto: Context): RecyclerView.Adapter<PersonasViewHolder>() {
